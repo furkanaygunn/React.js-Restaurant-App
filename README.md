@@ -1,8 +1,10 @@
 # YaseCAFE: Modern ve Etkileşimli Bir Restoran Uygulaması
 
-<p align="center">
-  <img src="https://via.placeholder.com/800x450.png?text=Proje+Ekran+G%C3%B6r%C3%BCnt%C3%BCs%C3%BC" alt="YaseCAFE Uygulaması Ana Sayfa"/>
-</p>
+###
+
+![alt text](https://github.com/furkanaygunn/MyPortfolio/blob/f6015ab9faf41610ac1625eb2bd1e26bb6a2e4bb/proje-images/2.png)
+
+###
 
 Bu proje, yazılımın sadece teknik bir araç değil, aynı zamanda etik, estetik ve insan odaklı bir çözüm olduğu vizyonuyla geliştirilmiştir. Tam yığın (Full Stack) geliştirici olma yolundaki bir aday olarak, temel prensiplere sadık kalarak, basitten karmaşığa doğru ilerleyen bir yaklaşımla tasarlanmıştır.
 
