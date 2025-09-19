@@ -9,7 +9,7 @@ import {
 const Faq: React.FC = () => {
   const faqData = [
     {
-      question: 'Cümbüş Kafe hafta sonu açık mı?',
+      question: 'YaseCAFE hafta sonu açık mı?',
       answer: 'Evet, kafemiz hafta içi 09:00 - 22:00, hafta sonu ise 10:00 - 23:00 saatleri arasında hizmet vermektedir.'
     },
     {

@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
     <nav className="bg-blue-600 text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="text-2xl font-bold">
-          Cümbüş Kafe
+          YaseCAFE
         </Link>
         {/* Hamburger menü butonu */}
         <div className="lg:hidden">
@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
             Adisyon
           </Link>
           <Link to="/menu" className="hover:underline">
-            Menü
+            YaseMenü
           </Link>
           <Link to="/iletisim" className="hover:underline">
             İletişim
@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
             Adisyon
           </Link>
           <Link to="/menu" className="block px-4 py-2 hover:bg-blue-700 rounded" onClick={toggleMenu}>
-            Menü
+            YaseMenü
           </Link>
           <Link to="/iletisim" className="block px-4 py-2 hover:bg-blue-700 rounded" onClick={toggleMenu}>
             İletişim

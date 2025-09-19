@@ -1,69 +1,51 @@
-# React + TypeScript + Vite
+# YaseCAFE: Modern ve Etkileşimli Bir Restoran Uygulaması
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://via.placeholder.com/800x450.png?text=Proje+Ekran+G%C3%B6r%C3%BCnt%C3%BCs%C3%BC" alt="YaseCAFE Uygulaması Ana Sayfa"/>
+</p>
 
-Currently, two official plugins are available:
+Bu proje, yazılımın sadece teknik bir araç değil, aynı zamanda etik, estetik ve insan odaklı bir çözüm olduğu vizyonuyla geliştirilmiştir. Tam yığın (Full Stack) geliştirici olma yolundaki bir aday olarak, temel prensiplere sadık kalarak, basitten karmaşığa doğru ilerleyen bir yaklaşımla tasarlanmıştır.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+### 🌟 Öne Çıkan Özellikler
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Dinamik Menü Yönetimi:** JSON veri kaynağından çekilen esnek ve güncellenebilir menü yapısı.
+- **Etkileşimli Adisyon Sistemi:** Masaya özel sipariş ekleme, düzenleme ve toplam tutar hesaplama.
+- **Kullanıcı Dostu Arayüz:** Tailwind CSS ve Shadcn/ui ile geliştirilmiş, sade ve mobil uyumlu bir tasarım.
+- **Ayrıntılı Sayfalar:** "Adisyon", "Hakkımızda", "İletişim", "Galeri" ve "Sıkça Sorulan Sorular" sayfaları.
+- **Temiz ve Sürdürülebilir Kod:** Projenin her aşamasında temiz kod yazma prensipleri ön planda tutuldu.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### 💻 Kullanılan Teknolojiler
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Bu projede, modern web geliştirme standartlarına uygun, doğru araçlarla doğru çözümler üretme felsefesiyle ilerlendi.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+| Alan | Teknoloji | Açıklama |
+| :--- | :--- | :--- |
+| **Frontend** | React.js, TypeScript | Component tabanlı, güçlü ve ölçeklenebilir bir kullanıcı arayüzü için. |
+| **Styling** | Tailwind CSS, Shadcn/ui | Hızlı ve özelleştirilebilir tasarım bileşenleri için. |
+| **Paket Yönetimi** | NPM | Proje bağımlılıklarını yönetmek için. |
+| **Modül Oluşturucu** | Vite | Yüksek performanslı geliştirme ortamı ve hızlı önizleme için. |
+| **Routing** | React Router DOM | Tek sayfalı uygulama (SPA) navigasyonunu yönetmek için. |
+| **Linting** | ESLint | Kod kalitesini artırmak ve standartları korumak için. |
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 🚀 Kurulum ve Çalıştırma
+
+Projeyi yerel makinenizde sorunsuz bir şekilde çalıştırmak için aşağıdaki adımları izleyin.
+
+```bash
+# 1. Depoyu klonlayın
+git clone [https://github.com/furkanaygunn/React.js-Restaurant-App.git](https://github.com/furkanaygunn/React.js-Restaurant-App.git)
+
+# 2. Proje dizinine gidin
+cd React.js-Restaurant-App
+
+# 3. Gerekli paketleri yükleyin
+npm install
+
+# 4. Uygulamayı başlatın
+npm run dev
