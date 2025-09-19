@@ -6,7 +6,7 @@
 
 ###
 
-![alt text]((https://github.com/furkanaygunn/React.js-Restaurant-App/blob/main/p2.png))
+![(([https://github.com/furkanaygunn/React.js-Restaurant-App/blob/main/p1.png](https://github.com/furkanaygunn/React.js-Restaurant-App/blob/main/jpg/p1.png)))](https://github.com/furkanaygunn/React.js-Restaurant-App/blob/main/jpg/p2.png)
 
 ###
 
