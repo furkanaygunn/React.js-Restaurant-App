@@ -2,7 +2,11 @@
 
 ###
 
-![alt text](https://github.com/furkanaygunn/MyPortfolio/blob/f6015ab9faf41610ac1625eb2bd1e26bb6a2e4bb/proje-images/2.png)
+![alt text]((https://github.com/furkanaygunn/React.js-Restaurant-App/blob/main/p1.png))
+
+###
+
+![alt text]((https://github.com/furkanaygunn/React.js-Restaurant-App/blob/main/p2.png))
 
 ###
 
